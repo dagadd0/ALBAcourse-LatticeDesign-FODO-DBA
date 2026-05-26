@@ -32,7 +32,7 @@ The project covers the design, simulation, and analysis of two types of storage-
 
 ### Running OPA
 
-1. Open `opa.exe` (Windows) or download OPA from the [PSI website](https://ados.web.psi.ch/opa/)
+1. Open `opa.exe` (Windows) or download OPA from the [PSI website](https://opa-code.github.io/)
 2. Load a lattice file: `File → Open` and select `FODO_Lattice.opa` or `dba_2026.opa`
 3. Compute the periodic solution: `Calculate → Periodic Solution`
 4. Explore optics, tune scans, and tracking from the menus
