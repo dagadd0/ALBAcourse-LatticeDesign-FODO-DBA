@@ -2,7 +2,7 @@
 
 This repository contains the work developed during the **Lattice Design Workshop** of the ALBA Accelerator Physics Course (May 2026), instructed by G. Benedetti.
 
-The project covers the design, simulation, and analysis of two types of storage-ring lattices — **FODO** and **DBA (Double Bend Achromat)** — using the [OPA](https://ados.web.psi.ch/opa/) optics simulation software.
+The project covers the design, simulation, and analysis of two types of storage-ring lattices — **FODO** and **DBA (Double Bend Achromat)** — using the [OPA](https://opa-code.github.io/) optics simulation software.
 
 ---
 
@@ -32,7 +32,7 @@ The project covers the design, simulation, and analysis of two types of storage-
 
 ### Running OPA
 
-1. Open `opa.exe` (Windows) or download OPA from the [PSI website](https://opa-code.github.io/)
+1. Open `opa.exe` (Windows) or download OPA from the [OPA website](https://opa-code.github.io/)
 2. Load a lattice file: `File → Open` and select `FODO_Lattice.opa` or `dba_2026.opa`
 3. Compute the periodic solution: `Calculate → Periodic Solution`
 4. Explore optics, tune scans, and tracking from the menus
@@ -61,7 +61,7 @@ An **18-cell DBA ring** was implemented with achromatic dispersion suppression. 
 
 ## Requirements
 
-- **OPA** — included as `opa.exe` or downloadable from [PSI](https://ados.web.psi.ch/opa/)
+- **OPA** — included as `opa.exe` or downloadable from [OPA-code](https://opa-code.github.io/)
 - **Python 3** + Jupyter for running `FODO_plots.ipynb`
   - Dependencies: `numpy`, `matplotlib`
 
